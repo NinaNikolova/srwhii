@@ -9,7 +9,7 @@ export const sample_organizations: Organization[] = [
         vat: 'BG123123123',
         address: 'Sofia, Raiko Aleksiev 20A',
         mol: 'Svetlin Nakov',
-        teems: ['Frontend', 'Backend', 'Sequrity'],
+        teams: ['Frontend', 'Backend', 'Sequrity'],
         employees: ['Svetlin Nakov', 'Ivanka Ivanova', 'Petia Petrova']
     },
     {
@@ -20,7 +20,7 @@ export const sample_organizations: Organization[] = [
         vat: 'BG123123666',
         address: 'Sofia, Ivan Geshev 20A',
         mol: 'Martin Marinov',
-        teems: ['QA', 'Backend', 'Sequrity'],
+        teams: ['QA', 'Backend', 'Sequrity'],
         employees: ['Martin Marinov', 'Ivancho Ivanov', 'Petar Petrov']
     },
     {
@@ -31,7 +31,7 @@ export const sample_organizations: Organization[] = [
         vat: '',
         address: 'Berlin, SomeCoolStreet 20AG',
         mol: 'John Bouvi',
-        teems: ['Frontend', 'Backend', 'QA'],
+        teams: ['Frontend', 'Backend', 'QA'],
         employees: ['John Bouvi', 'Ivan Ivanonkovich', 'Peter Petrov']
     },
 

@@ -1,0 +1,34 @@
+<ul>
+  <li *ngFor="let organization of organizations">
+    <a routerLink="/organization/{{ organization.id }}">
+      <div class="content">
+        <div class="name">
+          <h2>
+            {{ organization.name }}
+          </h2>
+        </div>
+
+        <div class="stars">
+          {{ organization.country }}
+        </div>
+        <div class="stars">UIC {{ organization.uic }}</div>
+        <div class="stars">VAT {{ organization.vat }}</div>
+
+        <div class="stars">Address: {{ organization.address }}</div>
+
+        <div class="origins">
+          Teams:
+          <span *ngFor="let team of organization.teams">
+            {{ team }}
+          </span>
+        </div>
+        <div class="origins">
+          Employees:
+          <span *ngFor="let employee of organization.employees">
+            {{ employee }}
+          </span>
+        </div>
+      </div>
+    </a>
+  </li>
+</ul>

@@ -6,7 +6,7 @@ export class Organization {
     vat?: string;
     address?: string;
     mol!: string;
-    teems?: string[];
+    teams?: string[];
     employees?: string[];
 
 }
