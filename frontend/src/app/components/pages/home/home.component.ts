@@ -15,6 +15,8 @@ export class HomeComponent {
     activatedRoute.params.subscribe((params) => {
       if (params.searchTerm) {
         this.organizations = this.organizationService.getAllBySearchTerm(params.searchTerm);
+      } else if (params.tag) {
+        this.organizations = this.organizationService.getAllOrganizationsByTag(params.tag);
       } else {
         this.organizations = organizationService.getAll();
       }

@@ -8,5 +8,6 @@ export class Organization {
     mol!: string;
     teams?: string[];
     employees?: string[];
+    tags?: string[];
 
 }
