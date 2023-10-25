@@ -22,5 +22,8 @@ export class OrganizationService {
     return tag === "All" ? this.getAll() :
       this.getAll().filter(o => o.tags?.includes(tag));
   }
+  getOrganizationById(organizationId: string): Organization {
+    return this.getAll().find(o => o.id === organizationId) ?? new Organization();
+  }
 
 }

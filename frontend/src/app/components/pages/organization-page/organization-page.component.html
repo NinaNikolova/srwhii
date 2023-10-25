@@ -1,0 +1,41 @@
+<div *ngIf="organization" class="container">
+  <!-- <img [src]="organization.imageUrl" [alt]="organization.name" /> -->
+
+  <div class="details">
+    <div class="header">
+      <span class="name">
+        {{ organization.name }}
+      </span>
+    </div>
+    <div class="rating">
+      {{ organization.country }}
+    </div>
+    <div class="rating">UIC {{ organization.uic }}</div>
+    <div class="rating">VAT {{ organization.vat }}</div>
+    <div class="rating">Address: {{ organization.address }}</div>
+    <div class="rating">Owner: {{ organization.mol }}</div>
+
+    <div class="teams">
+      <span *ngFor="let team of organization.teams">
+        {{ team }}
+      </span>
+    </div>
+    <div class="employees">
+      <span *ngFor="let employee of organization.employees">
+        {{ employee }}
+      </span>
+    </div>
+
+    <div class="tags">
+      <a *ngFor="let tag of organization.tags" routerLink="/tag/{{ tag }}">
+        {{ tag }}
+      </a>
+    </div>
+    <div>
+      <button>Go to HR module</button>
+    </div>
+    <div>
+      <button>Go to Clients module</button>
+    </div>
+  </div>
+</div>
