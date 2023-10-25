@@ -11,4 +11,8 @@ export class OrganizationService {
   getAll(): Organization[] {
     return sample_organizations;
   }
+  getAllBySearchTerm(searchTerm: string) {
+    return this.getAll().filter(o => o.name.toLowerCase().includes(searchTerm.toLowerCase()))
+  }
+
 }
