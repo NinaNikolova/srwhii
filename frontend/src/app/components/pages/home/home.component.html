@@ -1,5 +1,9 @@
 <app-search />
 <app-tags />
+<app-not-found
+  [visible]="!organizations || !organizations.length"
+  resetLinkText="Reset Search"
+/>
 <ul>
   <li *ngFor="let organization of organizations">
     <a routerLink="/organization/{{ organization.id }}">
@@ -15,7 +19,7 @@
         </div>
         <div class="stars">UIC {{ organization.uic }}</div>
         <div class="stars">VAT {{ organization.vat }}</div>
-
+        <div class="stars">Bank Account: {{ organization.bankAccount }}</div>
         <div class="stars">Address: {{ organization.address }}</div>
 
         <div class="origins">

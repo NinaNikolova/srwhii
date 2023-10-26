@@ -6,6 +6,7 @@ export class Organization {
     vat?: string;
     address?: string;
     mol!: string;
+    bankAccount!: string;
     teams?: string[];
     employees?: string[];
     tags?: string[];

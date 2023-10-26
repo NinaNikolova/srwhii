@@ -19,6 +19,7 @@ export class HomeComponent {
         this.organizations = this.organizationService.getAllOrganizationsByTag(params.tag);
       } else {
         this.organizations = organizationService.getAll();
+
       }
     })
 

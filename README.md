@@ -6,3 +6,4 @@
    -to be able to use params.searchTerm/this way with dot/ have to change in tsconfig.json - "noPropertyAccessFromIndexSignature": false,
 4. Tags component and logic
 5. Organization page
+6. Not Found Component

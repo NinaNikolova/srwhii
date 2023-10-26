@@ -1,4 +1,9 @@
-<div *ngIf="organization" class="container">
+<app-not-found
+  [visible]="!organization.id"
+  notFoundMessage="Organization Not Found"
+  resetLinkText="Back To Home Page"
+/>
+<div *ngIf="organization.id" class="container">
   <!-- <img [src]="organization.imageUrl" [alt]="organization.name" /> -->
 
   <div class="details">
@@ -14,6 +19,7 @@
     <div class="rating">VAT {{ organization.vat }}</div>
     <div class="rating">Address: {{ organization.address }}</div>
     <div class="rating">Owner: {{ organization.mol }}</div>
+    <div class="rating">Bank Account: {{ organization.bankAccount }}</div>
 
     <div class="teams">
       <span *ngFor="let team of organization.teams">

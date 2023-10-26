@@ -8,6 +8,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { SearchComponent } from './components/partials/search/search.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
 import { OrganizationPageComponent } from './components/pages/organization-page/organization-page.component';
+import { NotFoundComponent } from './components/partials/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OrganizationPageComponent } from './components/pages/organization-page/
     HomeComponent,
     SearchComponent,
     TagsComponent,
-    OrganizationPageComponent
+    OrganizationPageComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
