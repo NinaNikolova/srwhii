@@ -1,6 +1,10 @@
 # `SRWHII` is a repo with only purpose to create `READY TO USE COMPONENTS` for in Angular and Express.js / with TypeScript/
 
-## Frontend - Angular
+## Frontend
+
+- Create project's folder
+- Install @angular/cli
+- Create App as frontend
 
 1. Header component
 2. Home page

@@ -9,6 +9,9 @@ import { SearchComponent } from './components/partials/search/search.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
 import { OrganizationPageComponent } from './components/pages/organization-page/organization-page.component';
 import { NotFoundComponent } from './components/partials/not-found/not-found.component';
+import { LoginPageComponent } from './components/pages/login-page/login-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { TitleComponent } from './components/partials/title/title.component'
 
 @NgModule({
   declarations: [
@@ -18,12 +21,15 @@ import { NotFoundComponent } from './components/partials/not-found/not-found.com
     SearchComponent,
     TagsComponent,
     OrganizationPageComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LoginPageComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
