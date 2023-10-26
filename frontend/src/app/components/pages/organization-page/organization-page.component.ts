@@ -13,7 +13,9 @@ export class OrganizationPageComponent {
   constructor(activatedRoute: ActivatedRoute, organizationService: OrganizationService) {
     activatedRoute.params.subscribe((params) => {
       if (params.id) {
-        this.organization = organizationService.getOrganizationById(params.id);
+        organizationService.getOrganizationById(params.id).subscribe(serverOrganization => {
+          this.organization = serverOrganization;
+        })
       }
     })
   }

@@ -10,6 +10,8 @@ import { Tag } from 'src/app/shared/models/Tag';
 export class TagsComponent {
   tags?: Tag[];
   constructor(organizationService: OrganizationService) {
-    this.tags = organizationService.getAllTags();
+    organizationService.getAllTags().subscribe(serverTags => {
+      this.tags = serverTags;
+    })
   }
 }
