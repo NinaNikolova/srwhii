@@ -1,9 +1,13 @@
-# SRWHII is a repo with only purpose to create ready to use components in Angular and Express.js
+# `SRWHII` is a repo with only purpose to create `READY TO USE COMPONENTS` for in Angular and Express.js
+
+## Frontend - Angular
 
 1. Header component
 2. Home page
-3. Search component and logic
-   -to be able to use params.searchTerm/this way with dot/ have to change in tsconfig.json - "noPropertyAccessFromIndexSignature": false,
-4. Tags component and logic
+3. Search component
+   -to be able to use params.searchTerm / with dot, not square brackets/ have to change in tsconfig.json - "noPropertyAccessFromIndexSignature": false,
+4. Tags component
 5. Organization page
 6. Not Found Component
+
+## Backend - Express.js + Mongoose
