@@ -47,7 +47,7 @@ app.post("/api/users/login", (req, res) => {
 })
 const generateTokenResponse = (user: any) => {
     const token = jwt.sign({
-        email: user.email, isAdmin: user.isAdmin
+        email: user.email,
     }, "SomeRandomText", {
         expiresIn: "30d"
     });

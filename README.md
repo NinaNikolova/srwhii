@@ -14,8 +14,14 @@
 5. Organization page
 6. Not Found Component
 7. Login page
+8. UserService
 
-8. Import HTTP client module in app.module.ts and connect OrganizationService to backend
+9. Import HTTP client module in app.module.ts and connect OrganizationService and UserService to backend
+10. Add ngx-toastr
+
+- import module
+- import browser animation
+- add stules in angular.json
 
 ## Backend - Express.js + Mongoose
 
@@ -35,4 +41,6 @@
 - npm install nodemon ts-node --save-dev
 - Add urls.ts to frontend
 - Add HttpClient module
-- Update food service
+- Update organization service
+- routing
+- login
