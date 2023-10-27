@@ -13,8 +13,9 @@
 4. Tags component
 5. Organization page
 6. Not Found Component
+7. Login page
 
-7. Import HTTP client module in app.module.ts and connect OrganizationService to backend
+8. Import HTTP client module in app.module.ts and connect OrganizationService to backend
 
 ## Backend - Express.js + Mongoose
 
