@@ -13,11 +13,12 @@
 4. Tags component
 5. Organization page
 6. Not Found Component
-7. Login page
+7. Login page and complex logic
 8. UserService
+9. A lot of Partials: text-input/with input-container, input-validation/, default-button,
 
-9. Import HTTP client module in app.module.ts and connect OrganizationService and UserService to backend
-10. Add ngx-toastr
+10. Import HTTP client module in app.module.ts and connect OrganizationService and UserService to backend
+11. Add ngx-toastr
 
 - import module
 - import browser animation
