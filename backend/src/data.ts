@@ -1,7 +1,7 @@
 
 export const sample_organizations: any[] = [
     {
-        id: '1',
+
         name: 'SoftUni',
         country: 'Bulgaria',
         uic: '123123123',
@@ -14,7 +14,7 @@ export const sample_organizations: any[] = [
         tags: ['University']
     },
     {
-        id: '2',
+
         name: 'Fakturico',
         country: 'Bulgaria',
         uic: '123123666',
@@ -28,7 +28,7 @@ export const sample_organizations: any[] = [
 
     },
     {
-        id: '3',
+
         name: 'SomeCool Company 13',
         country: 'Germany',
         uic: '123123777',
@@ -41,7 +41,6 @@ export const sample_organizations: any[] = [
         tags: ['DevOps']
     },
     {
-        id: '4',
         name: 'SomeCool Accounting Company',
         country: 'Germany',
         uic: '123123777',
@@ -54,7 +53,7 @@ export const sample_organizations: any[] = [
         tags: ['Accounting']
     },
     {
-        id: '5',
+
         name: 'SomeCool Company5',
         country: 'Germany',
         uic: '123123777',
@@ -67,7 +66,7 @@ export const sample_organizations: any[] = [
         tags: ['Accounting', 'Consulting Agency']
     },
     {
-        id: '6',
+
         name: 'SomeCool E-commercy Company',
         country: 'Germany',
         uic: '123123777',

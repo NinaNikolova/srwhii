@@ -45,3 +45,15 @@
 - Update organization service
 - routing
 - login
+
+2. Connect Login API To MongoDB Atlas
+
+- Moving Apis into routers
+- Create MongoDB Atlas
+- Create .env file
+- Install
+- mongoose
+- dotenv
+- bcryptjs
+- express-async-handler
+- Use MongoDB instead of data.ts in apis
